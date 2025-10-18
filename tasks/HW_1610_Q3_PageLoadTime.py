@@ -8,5 +8,4 @@ page_load_time = int(input("What is the page load time (in seconds)?: "))
 if page_load_time <= 3:
     print("✅ Page load time is as expected. ")
 else:
-    print("⚠️ Page lo"
-          "ad time is too slow. ")
+    print("⚠️ Page load time is too slow. ")
