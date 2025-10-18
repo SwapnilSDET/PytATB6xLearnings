@@ -1,5 +1,6 @@
 print("Enter the which Test you want to run: ")
-test_type  = input("Enter the Test Type : API, UI, Performance, Security ").strip()
+
+test_type  = input("Enter the Test Type - API, UI, Performance, Security: ").strip()
 
 match test_type:
     case "API":
