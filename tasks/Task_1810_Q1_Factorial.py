@@ -12,7 +12,7 @@ fact = 1
 if n < 0:
     print(f"The number {n} is negative. Factorial does not exist for negative numbers.")
 elif n == 0:
-    print(f"The number {n} is zero. The factorial of 0 is always 1")
+    print(f"The number {n} is zero. The factorial of 0 is always 1.")
 else:
     for i in range(1,n+1):
         fact = fact * i
