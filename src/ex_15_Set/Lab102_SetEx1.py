@@ -1,5 +1,5 @@
-# # SET - Unordered
-# # Collection of Unique
+# # SET - Unordered, Mutable
+# # Collection of Unique/No duplicates
 # # {} - parenthesis
 #
 # list_of_unique_items = {1, 2, 3, 4, 4, 5, 5}
