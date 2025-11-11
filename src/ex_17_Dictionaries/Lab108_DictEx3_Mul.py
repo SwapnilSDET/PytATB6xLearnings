@@ -18,6 +18,7 @@ student_infor2 = {
     }
 }
 
+# Converting as List of Dictionaries
 student_list = [student_infor1, student_infor2]
 print(student_list)
 print(student_list[0])
