@@ -1,5 +1,5 @@
-# Single Inheritance
-# A Subclass/Child/Son inherits from one Parent/Base/Father.
+# Single Inheritance - One Parent -> One Child
+# A Subclass/Child/Son inherits from one Base/Parent/Father.
 
 
 class BaseTest:
