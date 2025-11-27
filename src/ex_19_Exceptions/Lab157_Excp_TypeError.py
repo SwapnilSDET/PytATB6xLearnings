@@ -1,0 +1,1 @@
+# print(1 + "2") # TypeError: unsupported operand type(s) for +: 'int' and 'str'
