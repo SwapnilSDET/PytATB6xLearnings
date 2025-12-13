@@ -1,0 +1,61 @@
+We can define a function.
+
+We can mark a test using @pytest.mark annotations.
+@pytest.mark.<marker_name>
+@pytest.mark("<marker_name>")
+
+We can set a title and description for a test case using -
+@allure.title("<TC Title>>")
+@allure.description("<TC Description>")
+
+### Allure Pytest
+ it is used to generate an HTML report of the pytest test cases
+
+allurereport.org/docs/pytest/](https://allurereport.org/docs/pytest/)
+
+> pip install allure-pytest
+
+
+
+To see the results
+
+install the nodejs.org/en/download(https://nodejs.org/en/download)
+
+www.npmjs.com/package/allure-commandline(https://www.npmjs.com/package/allure-commandline)
+
+npm -g install allure-commandline
+
+
+
+allure --version
+2.36.0
+
+
+
+**To See the Allure Report**
+
+ so if you want to run a pytest with HTML allure report to generate the HTML report,
+
+pytest src/ex_25_Allure_Pytest/test_Lab186_Allure.py --alluredir allure-results
+
+
+
+** this is a command to see the results of nLiver **
+
+ allure serve allure-results/
+
+
+
+
+
+# Requests
+pypi.org/project/requests/](https://pypi.org/project/requests/)
+
+**Requests** is a simple, yet elegant, HTTP library.
+
+GET, POST, PUT, DELETE, PATCH, HEAD.....
+
+> pip install requests
+
+
+
